@@ -1,0 +1,96 @@
+body {
+    background-image: url("images/backround-pic.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  .container {
+    width: 100%;
+    position: relative;
+    padding-top:0px;
+    margin-top: 0px;
+  }
+  
+  .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+ padding-top: 0px;
+ margin-top: 0px;
+  }
+  .block1{
+    background-color: red;
+    height: 700px;
+    margin-top: 0px;
+    
+    /*opacity: 0.5;*/ 
+    margin-top: 0px;
+    padding-top: 0px;
+    
+  }
+  .block2{
+    
+    height: 700px;
+    margin-top: 0px;
+    
+    /*opacity: 0.5;*/ 
+    margin-top: 0px;
+    padding-top: 250px;
+    
+    background-color: aqua;
+
+  }
+  .block1-p1{
+    text-align: center;
+    margin: 0;
+    padding-top:250px;
+    display: inline-block;
+    margin-left:700px;
+    padding-bottom:10px ;
+    border-bottom:1px solid white;
+  }
+  .floating-button{
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin-left:1300px;
+    padding-top:100px;
+  }
+  .p1-b1{
+margin: 0;
+text-align: center;
+display: inline-block;
+border-bottom: 3px;
+border-bottom-color: white;
+border-bottom-style: solid;
+margin-left:750px;
+}
+.hh{
+  margin-top:100px;
+  margin-left:80px;
+}
+  .b2-profile-image{
+    height:200px;
+    width:200px;
+    position: absolute;
+    left:670px;
+    border-radius: 150px;
+    border-color: rgb(213, 213, 203);
+    border-width: 8px;
+    border-style: solid;
+    }
+    .b2-p2{
+     display: inline-block;
+      position: absolute;
+      right:230px;
+      margin-top:-50px;
+    }
